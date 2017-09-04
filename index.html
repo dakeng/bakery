@@ -4,10 +4,26 @@
 	<title>Gustoso</title>
 	<meta charset="utf-8">
 	<!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scalse=1.0,user-scalable=no"> -->
+	<script type="text/javascript">
+		document.onreadystatechange = function(){
+			if(document.readyState == "complete"){
+				console.log(document.readyState);
+				document.querySelector(".loading").classList.add("fade-out");
+				document.querySelector(".loading").remove();
+			}
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="styles/loading.css">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya:400,700|Montserrat:300|Playfair+Display:700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
 </head>
 <body>
+	<div class="loading">
+		<div class="spinner">
+		  	<div class="double-bounce1"></div>
+		  	<div class="double-bounce2"></div>
+		</div>
+	</div>
 	<header class="navbar">
 		<div class="container clearfix">
 			<div class="logo left">gustoso</div>

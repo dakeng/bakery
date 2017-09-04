@@ -163,7 +163,7 @@ li+li::before{
 }
 
 .index-banner{
-	background: url(../images/banner.png) center center no-repeat;
+	background: url(../images/banner.jpg) center center no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	top: 0;
@@ -278,17 +278,17 @@ li+li::before{
 }
 
 .art-of-cakes{
-	background:url(../images/img_texture.png)center center no-repeat;
+	background:url(../images/img_texture.jpg)center center no-repeat;
 	background-size: cover;
 }
 
 .foodwidget{
-	background:url(../images/food_widget.png)center center no-repeat;
+	background:url(../images/food_widget.jpg)center center no-repeat;
 	background-size: cover;
 }
 
 .breakfast{
-	background:url(../images/breakfast.png)center center no-repeat;
+	background:url(../images/breakfast.jpg)center center no-repeat;
 	background-size: cover;
 }
 
